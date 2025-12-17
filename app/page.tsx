@@ -78,7 +78,7 @@ export default function Dashboard() {
       <MotionWrapper delay={0.2} className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
         
         {/* DEADLINE CARD */}
-        <Card className="bg-neutral-900/60 backdrop-blur-md border-neutral-800/80">
+        <Card className="bg-neutral-900/60 backdrop-blur-md border-neutral-800/80 hover:-translate-y-1">
           <CardHeader className="pb-2">
             <CardTitle className="text-sm font-medium text-neutral-400">Next Deadline</CardTitle>
           </CardHeader>
@@ -89,7 +89,7 @@ export default function Dashboard() {
         </Card>
         
         {/* STATUS CARD (Dynamic Color) */}
-        <Card className={`border-neutral-800 ${hasSubmitted ? 'bg-green-950/20 border-green-900/50' : 'bg-neutral-900'}`}>
+        <Card className={`border-neutral-800 ${hasSubmitted ? 'bg-green-950/20 border-green-900/50' : 'bg-neutral-900'} hover:-translate-y-1`}>
           <CardHeader className="pb-2">
              <CardTitle className="text-sm font-medium text-neutral-400">Status</CardTitle>
           </CardHeader>
@@ -112,14 +112,14 @@ export default function Dashboard() {
           </CardContent>
         </Card>
 
-        {/* SELECTION CARD */}
-        <Card className="bg-neutral-900/60 backdrop-blur-md border-neutral-800/80">
+        {/* NEXT PHASE CARD */}
+        <Card className="bg-neutral-900/60 backdrop-blur-md border-neutral-800/80 hover:-translate-y-1">
           <CardHeader className="pb-2">
-            <CardTitle className="text-sm font-medium text-neutral-400">Selection</CardTitle>
+            <CardTitle className="text-sm font-medium text-neutral-400">Next Phase Info</CardTitle>
           </CardHeader>
           <CardContent>
-             <div className="text-2xl font-bold text-neutral-600">--</div>
-             <p className="text-xs text-neutral-500 mt-1">Results on Jan 10</p>
+             <div className="text-2xl font-bold text-white">Evaluation</div>
+             <p className="text-xs text-neutral-500 mt-1">Ends Jan 10</p>
           </CardContent>
         </Card>
       </MotionWrapper>
