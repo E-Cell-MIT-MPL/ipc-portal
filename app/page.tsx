@@ -154,7 +154,7 @@ export default function Dashboard() {
                         Upload your solution for the preliminary round. PDF only.
                         </CardDescription>
                     </div>
-                    <Badge variant="outline" className="border-red-500 text-red-500 bg-red-500/10">Due in 8 Days</Badge>
+                    <Badge variant="outline" className="border-red-500 text-red-500 bg-red-500/10">Deadline: Dec 23, 2025</Badge>
                 </div>
                 </CardHeader>
                 <CardContent>
