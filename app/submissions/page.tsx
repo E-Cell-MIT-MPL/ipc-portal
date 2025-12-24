@@ -80,7 +80,7 @@ export default function SubmissionsPage() {
                   {hasSubmitted ? (
                      <p className="text-sm font-bold text-green-400">Received</p>
                   ) : (
-                     <p className="text-sm font-bold text-red-400">Deadline: Dec 23, 2025</p>
+                     <p className="text-sm font-bold text-red-400">Deadline: Dec 25, 2025</p>
                   )}
                 </div>
               </div>

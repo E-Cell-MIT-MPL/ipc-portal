@@ -84,7 +84,7 @@ export default function Dashboard() {
             <CardTitle className="text-sm font-medium text-neutral-400">Next Deadline</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold text-white">Dec 23, 2025</div>
+            <div className="text-2xl font-bold text-white">Dec 25, 2025</div>
             <p className="text-xs text-neutral-500 mt-1">Case Study Submission</p>
           </CardContent>
         </Card>
@@ -154,7 +154,7 @@ export default function Dashboard() {
                         Upload your solution for the preliminary round. PDF only.
                         </CardDescription>
                     </div>
-                    <Badge variant="outline" className="border-red-500 text-red-500 bg-red-500/10">Deadline: Dec 23, 2025</Badge>
+                    <Badge variant="outline" className="border-red-500 text-red-500 bg-red-500/10">Deadline: Dec 25, 2025</Badge>
                 </div>
                 </CardHeader>
                 <CardContent>

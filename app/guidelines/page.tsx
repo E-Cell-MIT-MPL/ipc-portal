@@ -8,7 +8,7 @@ import { Download } from 'lucide-react' // Import Icon
 export default function GuidelinesPage() {
   const schedule = [
     { phase: "Registrations", details: "Portal Opening & Team Signup", date: "Dec 9 - Dec 17", highlight: false },
-    { phase: "Case Study", details: "Submission of Policy Case Study", date: "Dec 23, 2025", highlight: true },
+    { phase: "Case Study", details: "Submission of Policy Case Study", date: "Dec 25, 2025", highlight: true },
     { phase: "Evaluation", details: "Group Discussion (GD) Round", date: "Jan 10, 2026", highlight: false },
     { phase: "Final Doc", details: "Policy Recommendation Document", date: "Jan 21, 2026", highlight: false },
     { phase: "Grand Finale", details: "Presentation at MES 2026 (MIT Manipal)", date: "Feb 11-12, 2026", highlight: false },
